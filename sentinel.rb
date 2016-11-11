@@ -141,7 +141,6 @@ if parse
 					.lines
 					.grep(keywordsRex)
 					.size
-				firstMatch = 0
 				if (matchCount > 0)
 					m.push( Positive_Result.new(f, 0, matchCount, "") )
 				end
